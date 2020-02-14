@@ -1,0 +1,6 @@
+Bug reduction fenetre (responsive) :
+	logo se decale sur le top au refresh
+
+Acces lien menu (responsive) :
+	trop bas
+

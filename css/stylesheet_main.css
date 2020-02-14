@@ -1,0 +1,277 @@
+
+/* 
+GLOBAL
+*/
+.title-menu {
+	font-family: 'Marmelad', sans-serif;
+}
+
+#general{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subtitle{
+	margin-left : 10px;
+	margin-top : 10px;
+	font-size : 30px;
+	font-weight : bold;
+}
+.block{
+	display : block;
+}
+
+html{
+	scroll-behavior : smooth;
+}
+
+/* 
+BANNIERE
+*/
+#header { 
+    background-color : #2e2e2e;
+	margin-bottom: -30px;
+}
+
+
+#header img {
+	position : relative;
+	display : block;
+	width : 100%;
+	margin-left : auto;
+	margin-right : auto;
+	}
+
+
+
+
+
+
+/* 
+BARRE NAVIGATION
+*/
+.menu {
+	z-index : 10;
+    list-style-type: none;
+	margin-top: -10px;
+    overflow: hidden;
+    background-color: #2e2e2e;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+	top : 0;
+}
+
+#logoMenu-li{
+	float:right;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+	font-weight : bold;
+	text-transform: uppercase;
+}
+
+
+.menu li a:hover, #logoMenu img:hover {
+    background-color: #555;
+    color: white;
+
+}
+
+
+.menu li {
+    float: left;
+}
+
+
+#logoMenu {
+	/* regle zone image surbrillance */
+	margin-bottom : -9px;
+	margin-top: -8px;
+	/* regle zone image surbrillance */
+	display:block;
+	text-decoration:none;
+	height :41px;
+	
+}
+
+/*
+CONTENT
+*/
+
+	/*
+	A PROPOS
+	*/
+	#apropos{
+		margin-top : -2.5%;
+	}
+	.columns{
+		margin-left: 10px;
+		margin-right: -1%;
+	}
+	.about .about-single-element object{
+		font-size : 60px;
+		margin-left :-30px;
+	}
+
+	.about .about-single-element{
+		margin-top : 10px;
+		text-align : center;
+	}
+	.about .about-single-element p{
+
+		text-align : left;
+	}
+
+	/*
+	TRAVAUX
+	*/
+	#travaux{
+		margin-top : -2.5%;
+		margin-left : 10px;
+		margin-right : 10px;
+	}
+	
+	.tile .titre-tile{
+		text-align : center;
+		z-index : 10;
+	}
+	
+	.logo-tile{
+		background-image : url("../images/travaux/logo/traveler_logo.jpg");
+	}
+	.banner-tile{
+		background-image : url("../images/travaux/banner/skyspeur.jpg");
+	}
+	.num-tile{
+		background-image : url("../images/travaux/num/spimouth.jpg");
+	}
+	.intro-tile{
+		background-image : url("../images/travaux/intro/1_Moment.jpg");
+	}
+	.comp-tile{
+		background-image : url("../images/travaux/comp/kaneki.jpg");
+	}
+	.dess-tile{
+		background-image : url("../images/travaux/dessin/");
+	}
+	.is-child{
+		background-color: #333;
+		background-size : cover;
+		background-position : center;
+		height : 200px;
+	}
+	.is-ancestor a{
+		width : 100%;
+	}
+	
+	
+	
+	/*
+	Contact
+	*/
+	#contact{
+		margin-top:-2.5%;
+	}
+	.field{
+		margin-left : 15%;
+		margin-right : 15%;
+	}
+
+	
+	
+/*
+Footer
+*/
+#footer {
+	background-color:#1ea08e;
+}
+#footer .lien a{
+	margin-left:10px;
+	text-decoration:none;
+	color:white;
+	font-size:50px;
+}
+
+#footer .lien {
+	display:block;
+	text-align: center;
+}
+
+#footer p {
+	color:white;
+	float :center;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+
+
+
+/*
+RESPONSIVE
+*/
+@media(max-width: 767px)
+{ 
+.title-menu{
+	font-size:12px;
+}
+    
+.menu {
+	width : 100%;
+}
+
+.menu li a {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+.menu li a:hover, #logoMenu img:hover {
+    background-color: #555;
+    color: white;
+
+}
+
+
+.menu li {
+    float: left;
+}
+
+
+#logoMenu {
+    position: absolute;
+    display: block;
+    width: 16%;
+    height: auto;
+    margin : 0;
+}
+#logoMenu-li{
+    text-align: center;
+	display:inline;
+	width :30%;
+	float:left;
+}
+
+#ligne2{
+    position: relative;
+    width: 70%;
+    float: right;
+    height: 100%;
+    
+}    
+.lien{
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
